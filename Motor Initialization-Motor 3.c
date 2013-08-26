@@ -20,7 +20,7 @@ void loop()
   {
     digitalWrite(8,HIGH);
     digitalWrite(9,LOW);
-    current_value = analogRead(0);
+    current_value = analogRead(3);
     
     if(current_value > 800)
     {
